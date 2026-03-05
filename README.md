@@ -158,7 +158,7 @@ psql -U your_user -d your_database -f sql/04_price_analysis.sql
 psql -U your_user -d your_database -f sql/05_category_analysis.sql
 ```
 
-### 3. Looker Studio
+### 3. Looker Studio - [Sephora full Dashboard](https://lookerstudio.google.com/reporting/14fc9de7-8d19-45a7-bbe1-f9fb8e5063d2)
 Connect via PostgreSQL connector and use these views as data sources:
 ```
 Page 1 → silver.vw_brand_summary    (charts + KPIs)
