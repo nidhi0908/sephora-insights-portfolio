@@ -182,7 +182,7 @@ Page 3 → silver.vw_category_analysis (all category charts)
 ## 👤 Author
 
 **Triplicane Gayatri**  
-https://www.linkedin.com/in/gayatri-triplicane/(#) · https://github.com/nidhi0908(#)
+https://www.linkedin.com/in/gayatri-triplicane/ · https://github.com/nidhi0908
 
 ---
 
