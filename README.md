@@ -1,6 +1,6 @@
 # 💄 Sephora Products & Skincare Reviews — Data Analytics Portfolio Project
 
-![Dashboard Preview](dashboard/page1_brand_analysis.png)
+![Dashboard Preview](Dashboard/page1_brand_analysis.png)
 
 ---
 
@@ -35,14 +35,14 @@ The analysis is framed around real business questions a **Customer Insights** or
 ```
 sephora-insights-portfolio/
 │
-├── sql/
+├── SQL/
 │   ├── 01_schema_and_cleaning.sql   # Bronze audit + silver table
 │   ├── 02_views.sql                 # All Looker Studio views
 │   ├── 03_brand_analysis.sql        # Brand performance queries
 │   ├── 04_price_analysis.sql        # Price vs engagement queries
 │   └── 05_category_analysis.sql     # Category breakdown queries
 │
-├── dashboard/
+├── Dashboard/
 │   ├── page1_brand_analysis.png     # Brand Performance dashboard
 │   ├── page2_price_analysis.png     # Price Analysis dashboard
 │   └── page3_category_analysis.png  # Category Analysis dashboard
@@ -112,7 +112,7 @@ from Kaggle           standardised           views for
 ## 📊 Looker Studio Dashboards
 
 ### Page 1 — Brand Performance Analysis
-![Brand Analysis](dashboard/page1_brand_analysis.png)
+![Brand Analysis](Dashboard/page1_brand_analysis.png)
 
 **Key Insights:**
 - Olaplex and Rare Beauty generate the highest customer love per product — outperforming brands with much larger catalogues
@@ -122,7 +122,7 @@ from Kaggle           standardised           views for
 ---
 
 ### Page 2 — Price Analysis
-![Price Analysis](dashboard/page2_price_analysis.png)
+![Price Analysis](Dashboard/page2_price_analysis.png)
 
 **Key Insights:**
 - The pricing sweet spot for customer engagement is **$21-40** — highest avg loves per product
@@ -132,7 +132,7 @@ from Kaggle           standardised           views for
 ---
 
 ### Page 3 — Category Analysis
-![Category Analysis](dashboard/page3_category_analysis.png)
+![Category Analysis](Dashboard/page3_category_analysis.png)
 
 **Key Insights:**
 - **Makeup** dominates total customer engagement despite Skincare having more products and a higher average rating
@@ -158,7 +158,7 @@ psql -U your_user -d your_database -f sql/04_price_analysis.sql
 psql -U your_user -d your_database -f sql/05_category_analysis.sql
 ```
 
-### 3. Looker Studio
+### 3. Looker Studio - [Sephora full Dashboard](https://lookerstudio.google.com/reporting/14fc9de7-8d19-45a7-bbe1-f9fb8e5063d2)
 Connect via PostgreSQL connector and use these views as data sources:
 ```
 Page 1 → silver.vw_brand_summary    (charts + KPIs)
@@ -181,8 +181,8 @@ Page 3 → silver.vw_category_analysis (all category charts)
 
 ## 👤 Author
 
-**[Your Name]**  
-[LinkedIn Profile](#) · [GitHub Profile](#)
+**Triplicane Gayatri**  
+https://www.linkedin.com/in/gayatri-triplicane/ · https://github.com/nidhi0908
 
 ---
 
